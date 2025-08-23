@@ -1,9 +1,9 @@
-🛡️ Phishing Website Detection  
+# 🛡️ Phishing Website Detection  
 This project uses supervised machine learning to **detect phishing websites** from a URL. The dataset consists of labeled URLs (phishing = `'bad'`, legitimate = `'good'`) and the URL.  
 
 ---
 
-📌 Project Goal  
+### 📌 Project Goal  
 The goal is to train a **binary classification model** that predicts whether a website is **Phishing (0)** or **Legitimate (1)** while demonstrating end-to-end ML practices:  
 
 - Data cleaning and preprocessing  
@@ -14,7 +14,7 @@ The goal is to train a **binary classification model** that predicts whether a w
 
 ---
 
-⚙️ Key Steps  
+### ⚙️ Key Steps  
 - **Feature Engineering**: Designed meaningful predictors from raw URLs.  
 - **Train-Test Split**: Stratified 80/20 split to maintain class balance.  
 - **Class Balancing**: Applied SMOTE oversampling on phishing sites.  
@@ -26,7 +26,7 @@ The goal is to train a **binary classification model** that predicts whether a w
 
 ---
 
-📊 Evaluation Metrics  
+### 📊 Evaluation Metrics  
 Models were assessed on the following:
 
 - **Accuracy**  
@@ -35,7 +35,7 @@ Models were assessed on the following:
 - 
 ---
 
-🤖 Best Performing Model  
+### 🤖 Best Performing Model  
 ✅ **Random Forest Classifier** (tuned):  
 
 - Accuracy: **0.92**  
@@ -48,14 +48,14 @@ XGBoost also performed strongly but required more tuning to balance recall and p
 
 ---
 
-📁 Files Included  
+### 📁 Files Included  
 - `Phishing_Website_Detection.ipynb`: Full code notebook with preprocessing, modeling, and evaluation  
 - `phishing.csv`: Dataset (processed version)  
 - `README.md`: Project overview and documentation  
 
 ---
 
-🏷️ Tags  
+###🏷️ Tags  
 #MachineLearning #Classification #Cybersecurity #PhishingDetection #RandomForest #XGBoost #DataScience #Sklearn  
 
 ---
