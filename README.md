@@ -25,6 +25,51 @@ The goal is to train a **binary classification model** that predicts whether a w
   - XGBoost → tuned with RandomizedSearchCV and probability thresholding  
 
 ---
+### 🛠️ Features Engineered:
+- digit_count
+- url_word_count
+- url_entropy
+- path_length
+- special_char_count
+- vowel_ratio
+- char_diversity
+- longest_word_length
+- consecutive_digits
+- consecutive_consonants
+- alnum_ratio
+- digit_to_char_ratio
+- num_dots
+- num_hyphens
+- uppercase_ratio
+- hostname_length
+- query_length
+- param_count
+- has_at
+- has_https
+- has_ip_address
+- num_slashes
+- repeated_char_count
+- subdomain_count
+- suspicious_word_count
+
+**Features Used in Final Model:**
+- digit_count
+- url_word_count
+- url_entropy
+- path_length
+- special_char_count
+- vowel_ratio
+- char_diversity
+- longest_word_length
+- consecutive_digits
+- consecutive_consonants
+- alnum_ratio
+- digit_to_char_ratio
+- num_dots
+- num_hyphens
+- uppercase_ratio
+
+---
 
 ### 📊 Evaluation Metrics  
 Models were assessed on the following:
