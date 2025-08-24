@@ -95,7 +95,7 @@ XGBoost also performed strongly but required more tuning to balance recall and p
 
 ### 📁 Files Included  
 - `Phishing_Website_Detection.ipynb`: Full code notebook with preprocessing, modeling, and evaluation  
-- `phishing.csv`: Dataset (processed version)  
+- `phishing.csv`: 🔗 [View Dataset on Kaggle](https://www.kaggle.com/datasets/taruntiwarihp/phishing-site-urls)  
 - `README.md`: Project overview and documentation  
 
 ---
